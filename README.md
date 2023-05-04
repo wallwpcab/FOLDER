@@ -10,23 +10,12 @@ git clone https://github.com/wallwpcab/Task_1_tests/
 npm install
 ```
 3. Create a .env file to the application root and copy all fields from the .env.example file.       
-    * Add your MongoDB dev database URI to the.env file as DB_URI
-    * Add MongoDB test database URI as TEST_DB_URI
-    * Use ENVIRONMENT as TEST before running the test case.
-    * Use ENVIRONMENT as DEV before running the application. 
+    * Add your MongoDB dev database URI to the.env file as MONGO_URL
+    * Use PORT as export PORT = 3000
 
-4. Test the application.
-```bash
-npm test
-```
-
-5. Run the application in dev mode.
-```bash
-npm run dev
-```
-6. Run the application in production mode.
+4. Run the application.
 ```bash
 npm start
 ```
-7. Browse Postman collection API Documentation [https://documenter.getpostman.com/view/5909130/UzR1M3qm] with your browser to see the result.
-    
+5. Open the browser and write localhost:3000 and then upload the file.
+
