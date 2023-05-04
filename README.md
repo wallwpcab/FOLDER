@@ -4,8 +4,10 @@
 1. Clone the application.
 ```bash
 git clone https://github.com/wallwpcab/Task_1_tests/
-```
-2. Packages install via this command.       
+`
+
+2. for installing dependencies use npm init -y
+3. Packages install via this command.       
 ```bash
 npm install
 ```
